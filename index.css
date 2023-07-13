@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.82);
+    padding: 10px 20px;
+
+}
+
+nav img {
+    border-radius: 50px;
+}
+
+ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    gap: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 40px;
+    font-size: 18px;
+    font-style: inherit;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.image {
+    height: 100vh;
+
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.192);
+    color: white;
+    font-weight: 20px;
+}
+
+.image>img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.logo {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+header {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+footer {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.823);
+    color: white;
+    text-align: center;
+}
+
+form {
+    width: 400px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+input {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #1b1919dc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding: 5px 10px;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(90, 181, 223);
+}
+
+.add>h1 {
+    background-color: rgba(0, 255, 76, 0.534);
+    padding: 5px;
+    color: aliceblue;
+}
+
+.bottum {
+    background-image: url('image/formback.jpeg');
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+}
+
+.name_wrapper {
+    display: flex;
+    gap: 30px;
+}
+
+.right {
+    position: relative;
+    margin-right: 10PX;
+}
+
+.left {
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.register_form {
+    visibility: hidden;
+}
+
+.login_form {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+}

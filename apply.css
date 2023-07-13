@@ -1,0 +1,81 @@
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ nav {
+     display: flex;
+     justify-content: center;
+     width: 100vw;
+     background-color: rgba(0, 0, 0, 0.82);
+     padding: 10px 20px;
+
+ }
+ ul {
+     width: 100%;
+     list-style: none;
+     display: flex;
+     justify-content: right;
+     gap: 30px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     margin-right: 40px;
+     font-size: 18px;
+     font-style: inherit;
+ }
+
+ nav>ul>li>a {
+     text-decoration: none;
+     color: aliceblue;
+ }
+
+.ptitle{
+ font-size: 55px;
+ font-weight: 700;
+ text-transform: none;
+ letter-spacing: 0px;
+ text-align: center;
+ font-family: 'Times New Roman', Times, serif;
+ color: black;
+ background-color: rgba(240, 248, 255, 0.659);
+ padding: 10px 20px;
+}
+
+.caption{
+ font-size: 21px;
+ font-weight: 400;
+ letter-spacing: 0px;
+ background-color: rgba(1, 18, 12, 0.707);
+ color: lightgreen;
+ text-align: center;
+ padding: 10px 20px;
+
+}
+
+.bottum {
+     background-color:rgba(177, 181, 184, 0.43);
+     background-repeat: none;
+     background-size: cover;
+     display: flex;
+ }
+
+body{
+ background-image:url('image/geuback.jpeg');
+ background-repeat: no-repeat;
+ background-size: cover;
+ 
+}
+h1{
+text-align: left;
+font-size: 35px;
+ font-weight: 200;
+ text-transform: none;
+ letter-spacing: 0px;
+}
+p{
+font-weight: 700;
+}
+

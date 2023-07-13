@@ -1,0 +1,50 @@
+
+.logo {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+header {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+form {
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color:rgba(240, 255, 255, 0.568);
+}
+
+button {
+    width: 100px;
+    height: 22px;
+    margin-left: 500px;
+    border-radius: 6px;
+    background-color: rgb(50, 235, 50);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    font-weight: bold;
+}

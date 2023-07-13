@@ -1,0 +1,10 @@
+body
+{
+  text-align: center;
+}
+button{
+  background-color:blue;
+  color:white;
+  width:150px;
+  height:40px;
+}

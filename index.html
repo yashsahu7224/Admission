@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+    <title>Graphic Era Addmission</title>
+    <link rel="icon" href="image/geulogo.jpg" type="image/icon type">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <script src="index.js"></script>
+    <nav>
+        <img src="image/geulogo.jpg" height="50px" alt="yes">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">About</a></li>
+            <li><a href="index.html">Contact</a></li>
+            <li><a href="apply.html">Apply Now</a></li>
+        </ul>
+    </nav>
+    <div class="add">
+        <h1>Admission Open for 2023!!!</h1>
+    </div>
+    <div class="image">
+        <img src="image/geuback.jpeg" height="100%" alt="">
+    </div>
+
+    <marquee direction="right" height="20" width="100%" bgcolor="white">Limited Seats. Enquire Now !!!</marquee>
+    <header>
+        <div class="logo">-------------------------Enquiry Form----------------------------</div>
+    </header>
+    <div class="bottum">
+
+        <div class="left">
+            <h1>Graphic Era University </h1><br><br>
+            <p>Graphic Era University takes pride in delivering the Highest Quality of Higher Education with consistent
+                focus on Academic Rigor and Innovation and Research. The Top Higher Education regulatory and
+                accreditation bodies of the country and the globe consistently rate Graphic Era University amongst the
+                Top Higher Education Institutions of the country and the world.
+            </p><br><br>
+            <ol type=".">
+                <p>Accredited by <b>NAAC</b> with Grade <b>A+</b></p><br>
+                <p>Ranked in Band <b>601-800</b> Globally by Times Higher Education World Ranking 2023</p><br>
+            </ol>
+        </div>
+        <!-- Sign Up Form -->
+        <div class="right">
+            <form class="register_form" name="myForm" action="signup.php" method="POST"
+                onsubmit="return validateForm()">
+                <h1>Create Account</h1>
+                <div class="name_wrapper">
+                    <div class="name">
+                        <label for="firstName">First Name</label>
+                        <input type="text" placeholder="First Name" name="firstName" required>
+                    </div>
+                    <div class="name">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" placeholder="Last Name" name="lastName" required>
+                    </div>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="xyz@gmail.com" name="email" required>
+                </div>
+                <div>
+                    <label for="contact">Mobile No.</label>
+                    <input type="tel" placeholder="Mobile no." name="contact" required>
+                </div>
+                <div>
+                    <label for="Address">Permanent Address</label>
+                    <input type="Address" placeholder="Address" name="Address" required>
+                </div>
+                <div>
+                    <label for="Password">Password</label>
+                    <input type="password" placeholder="Password" name="password" required>
+                </div>
+                <button type="submit">Sign up</button>
+                <a href="#" onclick="formSwitch('login')">Login</a>
+            </form>
+            <!-- Login Form -->
+            <form class="login_form" name="loginForm" action="login.php" method="POST" onsubmit="return logForm()">
+                <h1>LogIn</h1>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="xyz@gmail.com" name="email" required>
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Password" name="password" required>
+                </div>
+                <button type="submit">Log In</button>
+                <a href="#" onclick="formSwitch('register')">Register</a>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="last">&copy;2023 By Graphic Era. All rights reserved.</div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<head>
+    <title>form</title>
+    <style>
+        .logo {
+            font-size: 48px;
+            font-weight: bold;
+        }
+
+        header {
+            padding: 10px;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        footer {
+            padding: 20px;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        form {
+            margin-left: 100px;
+            margin-right: 100px;
+            background-color:rgba(240, 255, 255, 0.568);
+        }
+
+        button {
+            width: 100px;
+            height: 22px;
+            margin-left: 500px;
+            border-radius: 6px;
+            background-color: rgb(50, 235, 50);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">ENQUIRY FORM</div>
+    </header><br>
+    <form action="enquiry.php" method="POST">
+        <fieldset>
+            <legend>Student Details</legend>
+            1:Candidate's Name:
+            <input type="text" placeholder="Enter your name" name="cname" required><br><br>
+            2:Father's Name:
+            <input type="text" placeholder="Enter father's name" name="fname" required><br><br>
+            3:Gender:
+            <input type="radio" name="gender" value="M" required> Male
+            <input type="radio" name="gender" value="F" required> Female<br><br>
+            4:Address for correspondence:
+            <textarea rows="1" cols="53" name="address" required></textarea><br><br>
+            5:Father's phone no:
+            <input type="number" placeholder="xxxxxxxxxx" name="fnumber" required><br><br>
+            6:Candidate's phone no:
+            <input type="number" placeholder="xxxxxxxxxx" name="cnumber" required><br><br>
+            7:Father's email address:
+            <input type="email" placeholder="xyz@gmail.com" name="femail" required><br><br>
+            8:Candidate's email address:
+            <input type="email" placeholder="abc@gmail.com" name="cemail" required><br><br>
+            9:Education Qualifications:
+            <table>
+                <thead>
+                    <tr>
+                        <th>Class</th>
+                        <th>Exam Passed/Appering</th>
+                        <th>Board/University</th>
+                        <th>Year</th>
+                        <th>Percentage</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>10th</td>
+                        <td><input type="text" name="class10" required> </td>
+                        <td><input type="text" name="board1" required> </td>
+                        <td><input type="text" name="year1" required> </td>
+                        <td><input type="text" name="marks1" required> </td>
+                    </tr>
+                    <tr>
+                        <td>12th</td>
+                        <td><input type="text" name="class12" required> </td>
+                        <td><input type="text" name="board2" required> </td>
+                        <td><input type="text" name="year2" required> </td>
+                        <td><input type="text" name="marks2" required> </td>
+                    </tr>
+                    <tr>
+                        <td>Graduation</td>
+                        <td><input type="text" name="graduation"> </td>
+                        <td><input type="text" name="university"> </td>
+                        <td><input type="text" name="year3"> </td>
+                        <td><input type="text" name="marks3"> </td>
+                    </tr>
+
+                </tbody>
+            </table> <br>
+            10:Program intrested in:
+            <input type="text" placeholder="Enter program" name="pinterest" required><br><br>
+            11:Campus Choice:
+            <input type="checkbox" name="campus" value="GEU Dehradun"> GEU Dehradun
+            <input type="checkbox" name="campus" value="GEHU Dehradun"> GEHU Dehradun
+            <input type="checkbox" name="campus" value="GEHU Bhimtal"> GEHU Bhimtal<br><br>
+            12:Entrance Exam appeared (CAT/MAT/JEE Mains):<br>
+            Roll no:
+            <input type="number" placeholder="xxxxxxxxxx" name="rollno"><br><br>
+            Score percentile:
+            <input type="number" placeholder="xx" name="percentile"><br><br>
+            13:How did you come to know about Graphic Era University?(Tick Appropriate Box)<br><br>
+            DIGITAL MEDIA-<input type="checkbox" name="advertisement" value="Digital Media"><br>
+            PRINT MEDIA-<input type="checkbox" name="advertisement" value="Print Media"><br>
+            ELECTRONIC MEDIA-<input type="checkbox" name="advertisement" value="Electronic Media"><br><br>
+            Any Other Source:
+            <input type="text" placeholder="" name="other"><br><br>
+            <button>Submit</button>
+            </div>
+        </fieldset>
+    </form><br>
+    <footer>
+        <div class="bottum">&copy;2023 By Shalini Ruwari. All rights reserved.</div>
+    </footer>
+</body>
+
+</html>
